@@ -39,3 +39,9 @@ A module with saturation effects and examples
 - **[hardClipperExample1.pd](saturation/hardClipperExample1.pd)**
     A patch that takes in input signal, and based on a dB slider calculates
     amount of clipping.
+
+## Dynamics
+- **[exponential-decay~.pd](dynamics/exponential-decay~.pd)**
+    A exponential decay calculated using alpha to the power of n.
+- **[decay-tests~.pd](dynamics/decay-tests.pd)**
+    A very simple patch illustrating the use of the exponential-decay~ object.
