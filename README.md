@@ -29,3 +29,13 @@ A module showcasing correlation and related algorithms
 
 - **[offlineCorrelation.pd](correlation/offlineCorrelaton.pd)**
     An offline correlator to analyze correlation between two audio files.
+
+## Saturation
+A module with saturation effects and examples
+
+- **[hard-clipper~.pd](saturation/hard-clipper~.pd)**
+    A basic hard clipper that uses clip~ under the hood and compensates
+    amplitude.
+- **[hardClipperExample1.pd](saturation/hardClipperExample1.pd)**
+    A patch that takes in input signal, and based on a dB slider calculates
+    amount of clipping.
