@@ -1,0 +1,10 @@
+#N canvas 434 393 275 206 12;
+#X obj 46 93 exponential-decay~;
+#X obj 128 35 bng 19 250 50 0 empty empty activate 0 -10 0 12 #c6ffc7 #000000 #000000;
+#X floatatom 169 61 5 0 0 2 alpha - - 0;
+#X obj 46 117 output~;
+#X obj 46 58 phasor~ 440;
+#X connect 0 0 3 0;
+#X connect 1 0 0 2;
+#X connect 2 0 0 3;
+#X connect 4 0 0 0;
